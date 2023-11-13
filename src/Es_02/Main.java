@@ -4,14 +4,14 @@ Scrivere una funzione che controlli se un carattere è un numero altrimenti lanc
 */
 public class Main {
     public static void main(String[] args) throws Exception {
-        char inputChar = '1';
-        if (checkChar(inputChar)) {
-            System.out.println("Char is a digit.");
-        }
+        checkChar('9');
     }
     public static boolean checkChar (char inputChar) throws Exception {
         if (Character.isDigit(inputChar)) {
-            System.out.println("Character is a digit.");
+            StringBuilder result = new StringBuilder("The char ");
+            result.append(inputChar);
+            result.append(" is a number.");
+            System.out.println(result.toString());
         } else {
             throw new Exception();
         }
