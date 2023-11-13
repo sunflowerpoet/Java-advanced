@@ -5,19 +5,21 @@ package Es_01;
 */
 public class Main {
     public static void main(String[] args) {
-        try {
-            System.out.print("Input number: ");
-            checkRange(10);
-        } catch (Exception e) {
-            throw new RuntimeException(e);
+        int number = 2;
+
+        if (checkRange(number, 0, 10)) {
+            System.out.println("Il numero è nel range.");
         }
     }
-    public static void checkRange(int number) throws Exception {
-        if (number < 0 || number > 10) {
-            throw new Exception("Error: number not in range.");
-        } else {
-            System.out.println(number);
-            System.out.println("Number within range (0 - 10).");
+    public static boolean checkRange(int number, int min, int max) throws IllegalArgumentException {
+        if (number < min || number > max) {
+            throw new IllegalArgumentException("Number not in range.");
         }
+        return true;
     }
 }
+
+
+
+
+
