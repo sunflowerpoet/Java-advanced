@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
         checkChar('9');
     }
-    public static boolean checkChar (char inputChar) throws Exception {
+    public static void checkChar (char inputChar) throws Exception {
         if (Character.isDigit(inputChar)) {
             StringBuilder result = new StringBuilder("The char ");
             result.append(inputChar);
@@ -15,6 +15,5 @@ public class Main {
         } else {
             throw new Exception();
         }
-        return false;
     }
 }
