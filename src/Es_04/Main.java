@@ -28,7 +28,7 @@ public class Main {
             System.out.println("Errore: " + e.getMessage());
         }
     }
-    public static void processArray(int[] array) {
+    public static boolean processArray(int[] array) {
         for (int i = 0; i < array.length - 1; i++) {
             if (array[i + 1] != 0) {
                 int result = array[i] / array[i + 1];
@@ -37,6 +37,7 @@ public class Main {
                 throw new ArithmeticException("Divisione per zero");
             }
         }
+        return true;
     }
 }
 
