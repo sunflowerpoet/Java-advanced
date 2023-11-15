@@ -9,7 +9,7 @@ public class Main {
 
         checkRange(number, 0, 10);
     }
-    public static void checkRange(int number, int min, int max) throws IllegalArgumentException {
+    public static boolean checkRange(int number, int min, int max) throws IllegalArgumentException {
         if (number < min || number > max) {
             throw new IllegalArgumentException("Number not in range.");
         } else {
@@ -18,6 +18,7 @@ public class Main {
             result.append(" is in range.");
             System.out.println(result.toString());
         }
+        return false;
     }
 }
 
