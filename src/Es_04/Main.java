@@ -21,21 +21,19 @@ public class Main {
         scanner.close();
 
         try {
-            processArray(array);
+            processArray(array, 2);
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Errore: " + e.getMessage());
         } catch (ArithmeticException e) {
             System.out.println("Errore: " + e.getMessage());
         }
     }
-    public static boolean processArray(int[] array) {
-        for (int i = 0; i < array.length - 1; i++) {
-            if (array[i + 1] != 0) {
-                int result = array[i] / array[i + 1];
-                System.out.println("Risultato: " + result);
-            } else {
-                throw new ArithmeticException("Divisione per zero");
-            }
+    public static boolean processArray(int[] array, int index) {
+        if (array[index] != 0) {
+            int result = array[index] / 0;
+            System.out.println("Risultato operazione: " + result);
+        } else {
+            throw new ArithmeticException("Divisione per zero");
         }
         return true;
     }
