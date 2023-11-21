@@ -12,7 +12,7 @@ public class Main {
 
         boolean isContained = isCharContained(charHashSet, myChar);
 
-        System.out.println("L'HashSet contiene il carattere '" + myChar + "': " + isContained);
+        System.out.println("HashSet contains character '" + myChar + "': " + isContained);
     }
     public static HashSet<Character> createAndPopulateCharHashSet() {
         HashSet<Character> charHashSet = new HashSet<>();
