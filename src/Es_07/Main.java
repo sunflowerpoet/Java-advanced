@@ -7,9 +7,11 @@ public class Main {
     public static void main(String[] args) {
         HashSet<Integer> myHashSet = createAndPopulateHashSet();
 
-        System.out.println("La dimensione dell'HashSet è: " + myHashSet.size());
+        System.out.println("Input HashSet" + myHashSet);
 
-        System.out.println("Elementi dell'HashSet: " + elementsAsString(myHashSet));
+        System.out.println("HashSet size: " + myHashSet.size());
+
+        System.out.println("HashSet elements: " + elementsAsString(myHashSet));
     }
     public static HashSet<Integer> createAndPopulateHashSet() {
         HashSet<Integer> hashSet = new HashSet<>();
