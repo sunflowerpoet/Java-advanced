@@ -15,7 +15,7 @@ public class Main {
 
         Integer objectToRemove = new Integer(2);
 
-        removeElementFromHashSet(hashSet, objectToRemove);
+        removeElement(hashSet, objectToRemove);
 
         hashSet.clear();
 
@@ -31,13 +31,13 @@ public class Main {
         return hashSet;
     }
 
-    private static void removeElementFromHashSet(HashSet<Integer> hashSet, Integer elementToRemove) {
+    private static void removeElement(HashSet<Integer> hashSet, Integer elementToRemove) {
         Iterator<Integer> iterator = hashSet.iterator();
         while (iterator.hasNext()) {
             Integer element = iterator.next();
             if (element.equals(elementToRemove)) {
                 iterator.remove();
-                System.out.println("Removed element: " + element);
+                System.out.println("Element to remove: " + element);
             }
         }
         System.out.println("HashSet after removing element : " + hashSet);
