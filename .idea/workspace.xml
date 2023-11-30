@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5b23b09-0239-482b-a4cd-eba6123411e1" name="Changes" comment="first commit advanced">
+      <change afterPath="$PROJECT_DIR$/src/Es_10/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es_10/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Es_07/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Es_07/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Es_08/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Es_08/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Es_09/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Es_09/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +61,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/develhope/Java_Advanced_Esercizi/src/Main.java&quot;
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/develhope/Java_Advanced_Esercizi/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -189,7 +191,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700561088370</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="first commit advanced">
+      <option name="closed" value="true" />
+      <created>1701184189085</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1701184189085</updated>
+    </task>
+    <task id="LOCAL-00016" summary="first commit advanced">
+      <option name="closed" value="true" />
+      <created>1701184268107</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1701184268107</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,5 +224,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit advanced" />
     <option name="LAST_COMMIT_MESSAGE" value="first commit advanced" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

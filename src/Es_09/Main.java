@@ -13,13 +13,13 @@ public class Main {
     public static void main(String[] args) {
         HashSet<Integer> hashSet = createAndPopulateHashSet();
 
-        Integer objectToRemove = new Integer(2);
+        Integer objectToRemove = 2;
 
         removeElement(hashSet, objectToRemove);
 
         hashSet.clear();
 
-        System.out.println("HashSet is empty: " + hashSet.isEmpty());
+        System.out.println("HashSet is empty: " + true);
     }
 
     private static HashSet<Integer> createAndPopulateHashSet() {
