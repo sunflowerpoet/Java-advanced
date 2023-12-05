@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5b23b09-0239-482b-a4cd-eba6123411e1" name="Changes" comment="first commit advanced">
-      <change afterPath="$PROJECT_DIR$/src/Es_13/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Es_14/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es_15/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Es_15/Punto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
